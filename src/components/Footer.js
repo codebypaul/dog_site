@@ -10,10 +10,9 @@ export default class Footer extends Component {
 }
 
 const FooterCont = styled.footer`
-    width: 100%;
+    width: ;
     background: black;
     color: white;
     text-align: center;
-    position: fixed;
     bottom:0;
 `

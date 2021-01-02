@@ -41,7 +41,7 @@ function App() {
   }
   console.log(dog);
   return (
-    <div className="App">
+    <div>
       <Navigation/>
       <Switch>
         <Route exact path='/'>

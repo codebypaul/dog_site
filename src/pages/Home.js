@@ -5,7 +5,7 @@ export default function Home(props) {
     return (
         <div className="mb-5">
             <Carousel/>
-            <div className="row d-flex justify-content-around mt-5">
+            <div className="d-flex justify-content-around mt-5">
                 <Link to='available'>
                     <BreedBtn onClick={props.setDane}>Great Danes</BreedBtn>
                 </Link>
